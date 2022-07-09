@@ -4,14 +4,14 @@
 
 header {
   background-color: yellow;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
 
 header .container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   height: 500px;
@@ -23,23 +23,16 @@ header .container {
   height: 250px;
   margin: auto;
 }
-  
-
-.logo > img {
-  width: 250px;
-  height: 250px;
-}
-
 
 .slogan {
   color: black;
 }
- 
+
 /* configuração da frase de slogan */
-.slogan > h2 {
- font-size: 30px;
- font-weight: bold;
- margin-left: 120px;
+.slogan>h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 120px;
 }
 
 .menuprincipal {
@@ -50,8 +43,8 @@ header .container {
 
 
 .icone {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -78,6 +71,77 @@ header nav ul li {
   padding: 10px;
 
 }
+
+
+#container-imagem {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(imagens/reservas.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.caixa-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+
+}
+
+/* caixa de inputs  */
+ .pesquisa {
+  background-color: #66646446;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px;
+  color: #000000;
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: bolder;
+  padding: 20px;
+
+}
+
+#titulo_pesquisa {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+
+.caixa-pesquisa {
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.caixa-pesquisa > div {
+ margin: 30px;
+
+}
+
+.caixa-pesquisa > input {
+  width: 150px;
+  border-radius: 2px;
+  margin-right: 20px;
+  
+
+}
+
+.caixa-pesquisa > label {
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 15px ;
+
+}
+
+ /* Estilo dos Cards  */
 
 .cards {
   /* width: 90%; */
@@ -144,11 +208,11 @@ header nav ul li {
 }
 
 .titulocard {
-   font-size: 50px;
-   text-align: center;
-   margin-top: 70px;
-   margin-bottom: 70px;
-   border-style: groove;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-style: groove;
 }
 
 .text--medium {
@@ -162,23 +226,32 @@ header nav ul li {
   background-color: yellow;
   margin-top: 10%;
   width: 100%;
+  ;
+
+
 }
 
-footer div div div ul li a  {
+footer div div div ul li a {
   font-style: none;
   text-decoration: none;
   list-style: none;
   color: #000000;
   font-weight: bold;
+  font-size: 16px;
 
 }
 
 footer div div div ul li a:hover {
-  font-size: 25px;
+  font-size: 16px;
   text-decoration: none;
+
 }
 
-footer > h5 {
+Footer li {
+  margin-bottom: 10px;
+}
+
+footer>h5 {
   font-weight: bold;
 }
 
@@ -186,5 +259,3 @@ footer > h5 {
   display: flex;
   margin-top: 5px;
 }
-
-
