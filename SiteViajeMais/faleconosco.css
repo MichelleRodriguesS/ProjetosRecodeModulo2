@@ -1,0 +1,23 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+
+.icone {
+    width: 30px;
+    height: 30px;
+}
+
+.divisao {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.formulario {
+    display: flex;
+    margin-top: 70px;
+}
+
+
