@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Fale Conosco </title>
+    <title> Voos </title>
     <link rel="shortcut icon" href="imagens/aviaomenu.ico" type="image/x-icon">
-    <link rel="stylesheet" href="faleconosco.css">
+    <link rel="stylesheet" href="voos.css">
     <!-- font do site linkada ao google -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <!-- link do bootstrap-->
@@ -19,7 +22,6 @@
 </head>
 
 <body>
-
     <header>
         <section class="topo">
             <div class="logotopo"> <img src="imagens/logotopo.png" alt="logo Viajar Mais"> </div>
@@ -51,8 +53,8 @@
                             Encontre uma loja
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"> Promoções </a></li>
-                            <li><a class="dropdown-item" href="#"> SAC </a></li>
+                            <li><a class="dropdown-item" href="voos.html"> Promoções </a></li>
+                            <li><a class="dropdown-item" href="faleconosco.html"> SAC </a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -67,70 +69,127 @@
             </div>
             </div>
         </nav>
+
     </header>
-    <!-- fim do nav-bar bootstrap -->
+    <!-- fim do cabeçalho -->
+     <div class="titulocard">
+        <h1> Voos com preços imbátiveis pra você aproveitar </h1>
+     </div>
 
 
 
 
+    <!-- Cards do site -->
+    <!-- card -->
 
-
-
-    <div class="containerform">
-        <div class="divisao">
-            <div><img class="icone" src="imagens/emailico.ico" alt="Telefone icone ">
-                <h1> Fale com a gente </h1>
+    <section class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="imagens/bahia305.jpg" />
             </div>
-
-        </div>
-
-        <section class="formulario">
-            <div class="container d-flex p-2 bd-highlight mt-10 px-md-5">
-                <div class="row ml-5">
-                    <div class="col">
-                        <div class="mb-3 m">
-                            <label for="exampleInputEmail1" class="form-label"> Seu E-mail: </label>
-                            <input type="email" class="form-control border-dark" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder=" exemplo@email.com">
-                            <div id="emailHelp" class="form-text">Nunca iremos partilhar o seu e-mail com mais ninguém.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label"> Nome Completo </label>
-                            <input type="text" class="form-control border border-dark" id="exampleInputPassword1"
-                                placeholder="Digite seu Nome">
-                        </div>
-                    </div>
-                    <div class="opcao">
-                        <div class="row mt-5 mb-2">
-                            <div class="form-floating">
-                                <select class="form-select border-dark" id="floatingSelect"
-                                    aria-label="Floating label select example">
-                                    <option selected> Selecione uma opção</option>
-                                    <option value="1"> Reclamação </option>
-                                    <option value="2"> Dúvida </option>
-                                    <option value="3"> Elogio </option>
-                                </select>
-                                <label for="floatingSelect">Motivo do seu contato</label>
-                            </div>
-                            <div class="mb-3 mt-5">
-                                <div class="form-floating">
-                                    <textarea class="form-control border-dark mt-10" id="floatingTextarea"></textarea>
-                                    <label for="floatingTextarea"> Escreva aqui sua Mensagem </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-lg-0">
-                        <button type="submit" class="btn" style="background-color:yellow"> <strong> Enviar </strong>
-                        </button>
-                    </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Salvador - BA <br>
+                    Ida e Volta com taxas inclusas
+                </p>
+                <div class="info">
+                    <p class="text--medium"> A partir de <br> 12 x R$ 130,00 </p> <span>* Valor por pessoa</span>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+        
+
+        <!-- card -->
+        <div class="card">
+            <div class="image">
+                <img src="imagens/fortaleza305.jpg">
+            </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Forteleza - CE <br>
+                    Ida e Volta com taxas inclusas
+                <p class="text--medium"> A partir de <br> 12 x R$ 130,00 </p> <span>* Valor por pessoa</span>
+                </p>
+            </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+            <div class="image">
+                <img src="imagens/jericoacora305.jpg" />
+            </div>
+
+            <div class="content">
+                <p class="title text--medium">
+                    Jericoacoara - CE <br>
+                    Ida e Volta com taxas inclusas
+                </p>
+                <div class="info">
+                    <p class="text--medium"> A partir de <br> 12 x R$ 180,00 </p> <span>* Valor por pessoa</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="titulocard">
+        <h1> Voos internacionais com melhores condições de pagamento</h1>
+     </div>
+
+
+    <section class="cards2">
+        <!-- card -->
+        <div class="card">
+            <div class="image">
+                <img src="imagens/Paris305.jpg" />
+            </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Paris - França <br>
+                    Ida e Volta com taxas inclusas.
+                </p>
+                <div class="info">
+                    <p class="text--medium"> A partir de <br> 12 x R$ 690,00 </p> <span>* Valor por pessoa</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- card -->
+        <div class="card">
+            <div class="image">
+                <img src="imagens/orlando305.jpg" />
+            </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Orlando - EUA <br>
+                    Ida e Volta com taxas inclusas.
+                </p>
+                <div class="info">
+                    <p class="text--medium"> A partir de <br> 12 x R$ 480, 00 </p> <span>* Valor por pessoa</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- card -->
+        <div class="card">
+            <div class="image">
+                <img src="imagens/veneza3-305.jpg" />
+            </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Veneza - Itália <br>
+                    Ida e Volta com taxas inclusas.
+                </p>
+                <div class="info">
+                    <p class="text--medium"> A partir de <br> 12 x R$ 500, 00 </p> <span>*Valor por pessoa</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fim dos cards -->
+
+
+
 
     <!-- inicio do rodapé  -->
     <footer id="myFooter">
@@ -165,18 +224,18 @@
                 <div class="second-bar">
                     <div class="container">
                         <div class="social-icons">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/home" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
 
                         </div>
                         <div>
-
-
                         </div>
                         <div>
                             <span> Viajar Mais © 2022 </span>
                         </div>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -184,11 +243,18 @@
         </div>
 
     </footer>
+    <!-- Fim do rodapé -->
+    <section class="container">
 
 
 
 
 
+
+
+
+
+    </section>
 
 
 
@@ -207,7 +273,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-
-
 
 </body>

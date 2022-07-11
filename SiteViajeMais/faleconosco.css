@@ -3,6 +3,16 @@
   }
 
 
+  .containerform {
+    background-image: url(imagens/reservas20transp.jpg);
+    border: solid 2px;
+    box-shadow: black 3px 2px 2px 2px;
+    
+  }
+
+.nav-item {
+    font-weight: bold;
+}
 
 
 .icone {
@@ -18,6 +28,74 @@
 .formulario {
     display: flex;
     margin-top: 70px;
+    margin-top: 20px;
 }
+
+
+.logotopo {
+    margin-top: 68px;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+
+
+.carrossel {
+ margin: auto;
+
+
+}
+
+
+
+.logofinal {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#myFooter {
+    display: inline-block;
+    background-color: yellow;
+    margin-top: 10%;
+    width: 100%;
+    ;
+  
+  
+  }
+  
+  footer div div div ul li a {
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+  
+  }
+  
+  footer div div div ul li a:hover {
+    font-size: 16px;
+    text-decoration: none;
+  
+  }
+  
+  Footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer>h5 {
+    font-weight: bold;
+  }
+  
+  .logofinal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
 
 

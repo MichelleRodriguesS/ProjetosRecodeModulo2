@@ -1,0 +1,156 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+.nav-item {
+    font-weight: bold;
+}
+
+.icone {
+    width: 30px;
+    height: 30px;
+}
+
+.divisao {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.logotopo {
+    margin-top: 68px;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+
+ /* Estilo dos Cards  */
+
+ .cards {
+    /* width: 90%; */
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Template do grid */
+    grid-gap: 20px;
+  }
+  
+  .cards2 {
+    /* width: 90%; */
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Template do grid */
+    grid-gap: 20px;
+  
+  }
+  
+.text--medium {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(187, 185, 185);
+  
+  }
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* sombra das caixas */
+    box-shadow: 5px 5px 15px -4px #000000;
+    transition: all 0.3s ease 0s;
+}
+  
+.card:hover {
+    transform: translateY(-7px);
+    /* Efeito dos cards pra cima... pra cima Y pra baixo X... plano cartesiano*/
+}
+  
+  
+.image {
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+  
+.image img {
+    position: absolute;
+    /* coloca o elemento em relação ao seu pai, e altera os elementos ao redor dele */
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.content {
+    margin: 20px;
+}
+  
+.titulocard {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-style: groove;
+}
+  
+.text--medium {
+    color: #000000;
+    font-weight: bold;
+}
+  
+
+.logofinal {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#myFooter {
+    display: inline-block;
+    background-color: yellow;
+    margin-top: 10%;
+    width: 100%;
+ 
+}
+  
+  footer div div div ul li a {
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+  
+}
+  
+  footer div div div ul li a:hover {
+    font-size: 16px;
+    text-decoration: none;
+  
+  }
+  
+  Footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer>h5 {
+    font-weight: bold;
+  }
+  
+  .logofinal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+

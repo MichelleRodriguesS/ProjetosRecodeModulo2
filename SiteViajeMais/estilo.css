@@ -153,8 +153,10 @@ header nav ul li {
   width: 100px;
 }
 
-.btn-pes a :hover {
+.btn-pes:hover {
   background-color: yellow;
+  font-size: 15px;
+  border-radius: 10px;
  
 }
 
