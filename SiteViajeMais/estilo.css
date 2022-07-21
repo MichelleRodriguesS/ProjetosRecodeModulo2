@@ -279,3 +279,53 @@ footer>h5 {
   display: flex;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 460px ){
+  header .container {
+    height: 700px;
+  }
+
+  .slogan>h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+  
+  }
+  .logo img {
+    display: flex;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+.logo {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+  .caixa-p{
+    margin: auto;
+    height: 500px;
+    width: 200px;
+  
+  }
+
+.pesquisa {
+  width: 100%;
+}
+#titulo_pesquisa {
+  font-size: 25px;
+}
+
+
+}
