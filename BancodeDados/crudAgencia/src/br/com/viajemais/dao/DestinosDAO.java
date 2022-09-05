@@ -133,7 +133,7 @@ public class DestinosDAO {
 	}
 
 	public Destino buscaById(int id_destino) {
-		String sql = "SELECT * FROM Destinos WHERE id_destinos IN (?);";
+		String sql = "SELECT * FROM Destinos WHERE id_destino IN (?);";
 		ResultSet rset = null;
 		Destino destinos = new Destino();
 

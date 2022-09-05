@@ -7,7 +7,8 @@ public class Cliente {
  private String nome;
  private String cpf;
  private String endereco;
-public int getId() {
+
+ public int getId() {
 	return Id_cliente;
 }
 public void setId(int id) {
