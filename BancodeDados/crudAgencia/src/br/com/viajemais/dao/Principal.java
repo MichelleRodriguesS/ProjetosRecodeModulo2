@@ -120,7 +120,7 @@ public class Principal {
 						System.out.println("Digite a cidade do destino a ser Incluído no cadastro: ");
 						cidade = entrada.next();
 						System.out.println("Digite o estado do Destino: ");
-						estado = entrada.next()
+						estado = entrada.next();
 						System.out.println("Digite o código do Aeroporto com 3 letras do Destino: ");
 						aeroporto = entrada.next();
 						System.out.println("Digite o valor do Destino a ser incluído: ");
@@ -188,7 +188,7 @@ public class Principal {
 									System.out.println("Digite a cidade do destino a ser Incluído no cadastro: ");
 									cidade = entrada.next();
 									System.out.println("Digite o estado do Destino: ");
-									estado = entrada.next()
+									estado = entrada.next();
 									System.out.println("Digite o código do Aeroporto com 3 letras do Destino: ");
 									aeroporto = entrada.next();
 									System.out.println("Digite o valor do Destino a ser incluído: ");

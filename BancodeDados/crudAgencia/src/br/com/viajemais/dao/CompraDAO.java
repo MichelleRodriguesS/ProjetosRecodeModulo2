@@ -12,7 +12,8 @@ import br.com.viajemais.factory.ConnectionFactory;
 import br.com.viajemais.model.Cliente;
 import br.com.viajemais.model.Compra;
 import br.com.viajemais.model.Destino;
-import br.com.viajemais.dao;
+import br.com.viajemais.dao.ClientesDAO;
+import br.com.viajemais.dao.*;
 
 public class CompraDAO {
 
