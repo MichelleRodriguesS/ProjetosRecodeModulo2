@@ -8,6 +8,7 @@ public class Destino {
  private String Estado;
  private double valor;
  private int id_destino;
+public String getValor;
 
  public String getCidade() {
 	return Cidade;

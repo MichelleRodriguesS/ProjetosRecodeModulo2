@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
+import br.com.viajemais.model.*;
 
 import br.com.viajemais.factory.ConnectionFactory;
 import br.com.viajemais.model.Cliente;
@@ -17,7 +18,7 @@ public class ClientesDAO {
 	Connection conn = null;
 	PreparedStatement pstm = null;
 
-	public void save(Cliente cliente) {
+	public void save(Cliente c1) {
 		// metodo de salvar
 
 		String sql = "INSERT INTO Cliente(nome,cpf,endereco)" + "VALUES(?,?,?)";
@@ -34,9 +35,9 @@ public class ClientesDAO {
 
 			pstm = conn.prepareStatement(sql);
 
-			pstm.setString(1, cliente.getNome());
-			pstm.setString(2, cliente.getCpf());
-			pstm.setString(3, cliente.getEndereco());
+			pstm.setString(1, c1.getNome());
+			pstm.setString(2, c1.getCpf());
+			pstm.setString(3, c1.getEndereco());
 
 			// executar a inserção de dados
 			pstm.execute();
@@ -219,6 +220,9 @@ public class ClientesDAO {
 
 		}
 		return cliente;
+	}
+
+	public static void removeById(int id_cliente) {
 	}
 
 	

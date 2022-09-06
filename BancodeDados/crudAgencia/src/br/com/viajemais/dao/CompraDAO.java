@@ -122,18 +122,18 @@ public class CompraDAO {
 
 					cliente.setId(rset.getInt("Id_cliente"));
 					
-					// recupera o nome do banco e atribui ao objeto
+					// recupera a data de embarque do banco e atribui ao objeto
 					compra.setDataEmbarque(rset.getString("dataEmbarque"));
 					
-					// recupera o endereco e atribui nesse o objeto
+					// recupera a data de retorno  e atribui nesse o objeto
 					compra.setDataRetorno(rset.getString("dataRetorno"));
 					
-					//recupera a data e atribui ao objeto 
+					//recupera a data de registro do banco  e atribui ao objeto 
 					pstm.setDate(3, new Date(compra.getDataCompra().getTime()));
 					
 					
 					
-					// Adiciono o Cliente recuperado, a lista de clientes
+					// Adiciono os dados da compra recuperado, a lista de compra
 					compraLista.add(compra);
 
 				}

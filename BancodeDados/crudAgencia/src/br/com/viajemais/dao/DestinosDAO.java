@@ -16,6 +16,7 @@ public class DestinosDAO {
 	 * CRUD c: create r: read u: update d: delete
 	 */
 
+	public static final Destino[] getDestinos = null;
 	Connection conn = null;
 	PreparedStatement pstm = null;
 
